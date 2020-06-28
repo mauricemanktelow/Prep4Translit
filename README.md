@@ -21,4 +21,4 @@ Download a copy of the program and put it in a folder on your computer and run t
 
 Please feel invited!
 
-If you have an idea, please open an issue [GitHub](http://github.com)
+If you have an idea, please open an [issue](http://github.com)
