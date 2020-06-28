@@ -14,4 +14,4 @@ This is a Windows (only) program which requires the .Net Framework version 4.5.2
 
 #### Software
 
-The program was written in C# using Visual Studio 2015 Communitgy Edition
+The program was written in C# using Visual Studio 2015 Community Edition
