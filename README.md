@@ -8,12 +8,17 @@ For example:
 would become    
 *&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is the common verb היי} היי} in the Qal binyan*
    
-## Technical
+## Computer Requirements
 
 This is a Windows (only) program which requires the .Net Framework version 4.5.2 or later, e.g. it will work with Windows 10
 
 ## Getting Started
 
+As te program consistes of a single exe file an installer has not been provided</br>
+Download a copy of the program and put it in a folder on your computer and run the program in the normal way (by clicking on the file name).
 
 ## Contributing
 
+Please feel invited!
+
+If you have an idea, please open an issue [GitHub](http://github.com)
