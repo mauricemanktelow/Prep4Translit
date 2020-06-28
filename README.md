@@ -14,11 +14,13 @@ This is a Windows (only) program which requires the .Net Framework version 4.5.2
 
 ## Getting Started
 
-As te program consistes of a single exe file an installer has not been provided</br>
+As the program consistes of a single exe file an installer has not been provided</br>
 Download a copy of the program and put it in a folder on your computer and run the program in the normal way (by clicking on the file name).
 
-## Contributing
+Hopefully the program will be intutitve / self explanatory. For more detail download the documentation file.
+
+## Have a question or want to make a contribution
 
 Please feel invited!
 
-If you have an idea, please open an [issue](http://github.com)
+If you have a qustion, idea, or issue then please open an [issue](https://github.com/mauricemanktelow/Prep4Translit/issues) and I will get back to you as soon as possible
