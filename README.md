@@ -8,3 +8,10 @@ For example:
 would become    
 *&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is the common verb היי} היי} in the Qal binyan*
    
+#### Technical
+
+This is a Windows (only) program which requires the .Net Framework version 4.5.2 or later, e.g. it will work with Windows 10
+
+#### Software
+
+The program was written in C# using Visual Studio 2015 Communitgy Edition
