@@ -5,9 +5,9 @@ The program imports a Microsoft word document (docx) and creates a new version w
 
 For example:
 
-~This is the common verb היי in the Qal binyan
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is the common verb היי in the Qal binyan
    
 would become
 
-~This is the common verb היי} היי} in the Qal binyan
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is the common verb היי} היי} in the Qal binyan
    
