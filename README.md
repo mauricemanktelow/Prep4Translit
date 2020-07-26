@@ -9,11 +9,14 @@ would become
 *&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is the common verb היי} היי} in the Qal binyan*
 
 ## Preparation
-Before running the program the original Word file should define a unique style which can be applied to the transliterated text. 
+Before running the program the original Word file to be processed should define a unique style which can be applied to the transliterated text. 
 
-### Recommendation
+##### Recommendation to help with checking the inserted text
+The insertion
 
-Before The optional {} characters surrounding the transliterated 
+From experience the unique style to be added to the text for transileration shoud be 1 or2 points larger than the original and coloured red.
+
+The program provides an option to apply unique characters surroundin the transilerated text. It is recommended that characters such as {} be used. They can subsequently be easily removed using find/replace within Microsoft Word.
    
 ## Computer Requirements
 
