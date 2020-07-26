@@ -29,17 +29,25 @@ Download a copy of the program and put it in a folder on your computer and run t
 
 Hopefully the program will be intutitve / self explanatory. For more detail download the documentation file.
 
+##Methodology
+To identify the words / phrases which need transileration the program uses a regular espression. The one used has been developed by experimentation with a range of texts. It has been found to work on 99.5% of occasions - with minor spacing issues with the remainig 0.5%. If the success rate is significanlty les than that with any particualr text please contact support by opening an [issue](https://github.com/mauricemanktelow/Prep4Translit/issues).
+
 ## Working with character sets other than Hebrew or Greek
 
 The original brief for the program was to work with Hebrew and Greek. This can easily be extended to other character sets by ammending the regular experession used in the conversion.
 
 The default regular expression for Hebrew and Greek is:
-(\([\u0370-\u03FF\u1F00-\u1FFF\u0342-\u0345\u2019\u0590-\u05ff\u202A\u202C\u200E\u200F]+\))*([\u0370-\u03FF\u1F00-\u1FFF\u0342-\u0345\u2019\u0590-\u05ff\u202A\u202C\u200E\u200F]+)([\s\u202A\u202C\u200E\u200F\u2026\u2025\u002E{2,3}\u002D\u2011\u2012\u2013\u2014]*([\u0370-\u03FF\u1F00-\u1FFF\u0342-\u0345\u2019\u0590-\u05ff]+[\u202A\u202C\u200E\u200F]*)+)+(\s*\([\u0370-\u03FF\u1F00-\u1FFF\u0342-\u0345\u2019\u0590-\u05ff\u002D\u2011\u2012\u2013\u2014]+\))*
+(\([\u0370-\u03FF\u1F00-\u1FFF\u0342-\u0345\u2019\u0590-\u05FF\u202A\u202C\u200E\u200F]+\))*([\u0370-\u03FF\u1F00-\u1FFF\u0342-\u0345\u2019\u0590-\u05FF\u202A\u202C\u200E\u200F]+)([\s\u202A\u202C\u200E\u200F\u2026\u2025\u002E{2,3}\u002D\u2011\u2012\u2013\u2014]*([\u0370-\u03FF\u1F00-\u1FFF\u0342-\u0345\u2019\u0590-\u05FF]+[\u202A\u202C\u200E\u200F]*)+)+(\s*\([\u0370-\u03FF\u1F00-\u1FFF\u0342-\u0345\u2019\u0590-\u05FF\u002D\u2011\u2012\u2013\u2014]+\))*
 
-(\([<span style="color:red">\u0370-\u03FF\u1F00-\u1FFF</span>\u0342-\u0345\u2019\u0590-\u05ff\u202A\u202C\u200E\u200F]+\))*([<span style="color:red">\u0370-\u03FF\u1F00-\u1FFF</span>\u0342-\u0345\u2019<span style="color:blue">\u0590-\u05ff</span>\u202A\u202C\u200E\u200F]+)([\s\u202A\u202C\u200E\u200F\u2026\u2025\u002E{2,3}\u002D\u2011\u2012\u2013\u2014]*([<span style="color:red">\u0370-\u03FF\u1F00-\u1FFF</span>\u0342-\u0345\u2019<span style="color:blue">\u0590-\u05ff</span>]+[\u202A\u202C\u200E\u200F]*)+)+(\s*\([<span style="color:red">\u0370-\u03FF\u1F00-\u1FFF</span>\u0342-\u0345\u2019<span style="color:blue">\u0590-\u05ff</span>\u002D\u2011\u2012\u2013\u2014]+\))*
+In the above experession the Greek block is defined as \u0370-\u03FF\u1F00-\u1FFF and the Hebrew block is \u0590-\u05FF. To include another language block alloccurrences of these blocks will require either replacing adding to with the required additonal language block.
+
+For example to work with the Syriac code block \u0700—\u074F insted of Greek and Hebrew the regular expresion would need modifying as follows:
+
+(\([\u0700—\u074F\u0342-\u0345\u2019\u202A\u202C\u200E\u200F]+\))*([\u0700—\u074F\u0342-\u0345\u2019\u202A\u202C\u200E\u200F]+)([\s\u202A\u202C\u200E\u200F\u2026\u2025\u002E{2,3}\u002D\u2011\u2012\u2013\u2014]*([\u0700—\u074F\u0342-\u0345\u2019]+[\u202A\u202C\u200E\u200F]*)+)+(\s*\([\u0700—\u074F\u0342-\u0345\u2019\u002D\u2011\u2012\u2013\u2014]+\))*
+
 
 ## Have a question or want to make a contribution
 
 Please feel invited!
 
-If you have a qustion, idea, or issue then please open an [issue](https://github.com/mauricemanktelow/Prep4Translit/issues) and I will get back to you as soon as possible
+If you have a question, idea, or issue then please open an [issue](https://github.com/mauricemanktelow/Prep4Translit/issues) and I will get back to you as soon as possible
