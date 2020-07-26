@@ -36,7 +36,7 @@ The original brief for the program was to work with Hebrew and Greek. This can e
 The default regular expression for Hebrew and Greek is:
 (\([\u0370-\u03FF\u1F00-\u1FFF\u0342-\u0345\u2019\u0590-\u05ff\u202A\u202C\u200E\u200F]+\))*([\u0370-\u03FF\u1F00-\u1FFF\u0342-\u0345\u2019\u0590-\u05ff\u202A\u202C\u200E\u200F]+)([\s\u202A\u202C\u200E\u200F\u2026\u2025\u002E{2,3}\u002D\u2011\u2012\u2013\u2014]*([\u0370-\u03FF\u1F00-\u1FFF\u0342-\u0345\u2019\u0590-\u05ff]+[\u202A\u202C\u200E\u200F]*)+)+(\s*\([\u0370-\u03FF\u1F00-\u1FFF\u0342-\u0345\u2019\u0590-\u05ff\u002D\u2011\u2012\u2013\u2014]+\))*
 
-The above 
+(\([<span style="color:red">\u0370-\u03FF\u1F00-\u1FFF</span>\u0342-\u0345\u2019\u0590-\u05ff\u202A\u202C\u200E\u200F]+\))*([<span style="color:red">\u0370-\u03FF\u1F00-\u1FFF</span>\u0342-\u0345\u2019<span style="color:blue">\u0590-\u05ff</span>\u202A\u202C\u200E\u200F]+)([\s\u202A\u202C\u200E\u200F\u2026\u2025\u002E{2,3}\u002D\u2011\u2012\u2013\u2014]*([<span style="color:red">\u0370-\u03FF\u1F00-\u1FFF</span>\u0342-\u0345\u2019<span style="color:blue">\u0590-\u05ff</span>]+[\u202A\u202C\u200E\u200F]*)+)+(\s*\([<span style="color:red">\u0370-\u03FF\u1F00-\u1FFF</span>\u0342-\u0345\u2019<span style="color:blue">\u0590-\u05ff</span>\u002D\u2011\u2012\u2013\u2014]+\))*
 
 ## Have a question or want to make a contribution
 
