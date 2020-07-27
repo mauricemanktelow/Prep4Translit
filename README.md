@@ -20,7 +20,7 @@ This is a Windows (only) program which requires the .Net Framework version 4.5.2
 As the program consists of a single exe file an installer has not been provided</br>
 Download a copy of the program and put it in a folder on your computer and run the program in the normal way (by clicking on the file name).
 
-Hopefully the program will be intuitive/self explanatory. For more detail download the documentation file.
+Hopefully the program will be intuitive/self explanatory.
 
 ##Methodology
 To identify the words / phrases which need transliteration the program uses a range of unicode values. Four standard sets are provided:
