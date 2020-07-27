@@ -10,15 +10,6 @@ would become
 
 ## Preparation
 Before running the program, the original Word file to be processed should define a unique style which can be applied to the transliterated text. 
-
-##### Recommendation to help with checking the inserted text
-From practical experience with the progrma, due to the compxities of using space in mixed directional text, it has been found that on 0.5% of occasions the transliterated text is not correctly separated from the previous text by a space. The result of applying the transliteration therefore needs checking for correct insertion of spaces. The following recommendations help to make this a quick and simple process.  
-
-It is recommended that the unique style to be added to the text for transliteration should be 1 or2 points larger than the original and coloured red. (It can subsequently be changed once checking is complete.)
-
-The program provides an option to apply unique characters surrounding the transliterated text (these are called delimiters). It is recommended that characters such as {} be used. They can subsequently be easily removed using find/replace within Microsoft Word.
-
-If, in use, the success rate is significantly less than that with any particular text please contact support by opening an [issue](https://github.com/mauricemanktelow/Prep4Translit/issues).
    
 ## Computer Requirements
 
@@ -42,6 +33,15 @@ To identify the words / phrases which need transliteration the program uses a ra
 These four are available via a drop down list. 
 
 Users can specify their own unicode blocks by entering the values in the language block for transliterion. This can be either a set of single code points or a range as in the four standard sets above.
+
+##### Recommendation to help with checking the inserted text
+From practical experience with the program, due to the complexities of using spaces in mixed directional text, it has been found that on 0.5% of occasions the transliterated text is not correctly separated from the previous text by a space. The result of applying the transliteration therefore needs checking for correct insertion of spaces. The following recommendations help to make this a quick and simple process.  
+
+It is recommended that the unique style to be added to the text for transliteration should be 1 or2 points larger than the original and coloured red. (It can subsequently be changed once checking is complete.)
+
+The program provides an option to apply unique characters surrounding the transliterated text (these are called delimiters). It is recommended that characters such as {} be used. They can subsequently be easily removed using find/replace within Microsoft Word.
+
+If, in use, the success rate is significantly less than that with any particular text please contact support by opening an [issue](https://github.com/mauricemanktelow/Prep4Translit/issues).
 
 ## Have a question or want to make a contribution
 
