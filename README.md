@@ -17,6 +17,8 @@ From practical experience with the progrma, due to the compxities of using space
 It is recommended that the unique style to be added to the text for transliteration should be 1 or2 points larger than the original and coloured red. (It can subsequently be changed once checking is complete.)
 
 The program provides an option to apply unique characters surrounding the transliterated text (these are called delimiters). It is recommended that characters such as {} be used. They can subsequently be easily removed using find/replace within Microsoft Word.
+
+If, in use, the success rate is significantly less than that with any particular text please contact support by opening an [issue](https://github.com/mauricemanktelow/Prep4Translit/issues).
    
 ## Computer Requirements
 
@@ -30,28 +32,14 @@ Download a copy of the program and put it in a folder on your computer and run t
 Hopefully the program will be intuitive/self explanatory. For more detail download the documentation file.
 
 ##Methodology
-To identify the words / phrases which need transliteration the program uses a range of unicode values. Fours standard sets are provided:
+To identify the words / phrases which need transliteration the program uses a range of unicode values. Four standard sets are provided:
 
 * Arabic (U+0700-U+074F)
 * Greek (U+0370-U+03FF  U+1F00-U+1FEE  U+0342-U+0345)
 * Hebrew (U+0590-U+1FFE)
 * Syriac (U+0700-U+074F)
 
-block a regular expression. The default one has been developed by experimentation with a range of texts. It has been found to work on 99.5% of occasions - with minor spacing issues with the remaining 0.5%. If, in use, the success rate is significantly less than that with any particular text please contact support by opening an [issue](https://github.com/mauricemanktelow/Prep4Translit/issues).
-
-## Working with character sets other than Hebrew or Greek
-
-The original brief for the program was to work with Hebrew and Greek. This can easily be extended to other character sets by amending the regular expression used in the conversion.
-
-The default regular expression for Hebrew and Greek is:
-(\([\u0370-\u03FF\u1F00-\u1FFF\u0342-\u0345\u2019\u0590-\u05FF\u202A\u202C\u200E\u200F]+\))*([\u0370-\u03FF\u1F00-\u1FFF\u0342-\u0345\u2019\u0590-\u05FF\u202A\u202C\u200E\u200F]+)([\s\u202A\u202C\u200E\u200F\u2026\u2025\u002E{2,3}\u002D\u2011\u2012\u2013\u2014]*([\u0370-\u03FF\u1F00-\u1FFF\u0342-\u0345\u2019\u0590-\u05FF]+[\u202A\u202C\u200E\u200F]*)+)+(\s*\([\u0370-\u03FF\u1F00-\u1FFF\u0342-\u0345\u2019\u0590-\u05FF\u002D\u2011\u2012\u2013\u2014]+\))*
-
-In the above expression the Greek block is defined as \u0370-\u03FF\u1F00-\u1FFF and the Hebrew block is \u0590-\u05FF. To include another language block all occurrences of these blocks will require either replacing or adding to with the required additional language block.
-
-For example, to work with the Syriac code block \u0700—\u074F instead of Greek and Hebrew the regular expression would need modifying as follows:
-
-(\([\u0700—\u074F\u0342-\u0345\u2019\u202A\u202C\u200E\u200F]+\))*([\u0700—\u074F\u0342-\u0345\u2019\u202A\u202C\u200E\u200F]+)([\s\u202A\u202C\u200E\u200F\u2026\u2025\u002E{2,3}\u002D\u2011\u2012\u2013\u2014]*([\u0700—\u074F\u0342-\u0345\u2019]+[\u202A\u202C\u200E\u200F]*)+)+(\s*\([\u0700—\u074F\u0342-\u0345\u2019\u002D\u2011\u2012\u2013\u2014]+\))*
-
+These four are available via a drop down list. Users can specify their own unicode blocks by entering the values in rthe language block for transliterion. This can be either a set of single code points or a range as in the four standard sets above.
 
 ## Have a question or want to make a contribution
 
