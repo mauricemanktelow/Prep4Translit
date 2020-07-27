@@ -33,7 +33,7 @@ Hopefully the program will be intuitive/self explanatory. For more detail downlo
 To identify the words / phrases which need transliteration the program uses a range of unicode values. Fours standard sets are provided:
 
 * Arabic (U+0700-U+074F)
-* Greek (U+0370-U+03FF U+1F00-U+1FEE U+0342-U+0345)
+* Greek (U+0370-U+03FF  U+1F00-U+1FEE  U+0342-U+0345)
 * Hebrew (U+0590-U+1FFE)
 * Syriac (U+0700-U+074F)
 
