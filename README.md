@@ -39,7 +39,9 @@ To identify the words / phrases which need transliteration the program uses a ra
 * Hebrew (U+0590-U+1FFE)
 * Syriac (U+0700-U+074F)
 
-These four are available via a drop down list. Users can specify their own unicode blocks by entering the values in rthe language block for transliterion. This can be either a set of single code points or a range as in the four standard sets above.
+These four are available via a drop down list. 
+
+Users can specify their own unicode blocks by entering the values in the language block for transliterion. This can be either a set of single code points or a range as in the four standard sets above.
 
 ## Have a question or want to make a contribution
 
