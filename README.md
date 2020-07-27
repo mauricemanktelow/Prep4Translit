@@ -12,9 +12,9 @@ would become
 Before running the program, the original Word file to be processed should define a unique style which can be applied to the transliterated text. 
 
 ##### Recommendation to help with checking the inserted text
-From practical application of the program it has been found that on 0.5% of occasions the transliterated text is not separated from the previous text by a space. The result of applying the transliteration therefore needs checking for correct insertion of spaces. The following recommendations help to make this a quick and simple process.  
+From practical experience with the progrma, due to the compxities of using space in mixed directional text, it has been found that on 0.5% of occasions the transliterated text is not correctly separated from the previous text by a space. The result of applying the transliteration therefore needs checking for correct insertion of spaces. The following recommendations help to make this a quick and simple process.  
 
-The unique style to be added to the text for transliteration should be 1 or2 points larger than the original and coloured red. (It can subsequently be changed once checking is complete.)
+It is recommended that the unique style to be added to the text for transliteration should be 1 or2 points larger than the original and coloured red. (It can subsequently be changed once checking is complete.)
 
 The program provides an option to apply unique characters surrounding the transliterated text (these are called delimiters). It is recommended that characters such as {} be used. They can subsequently be easily removed using find/replace within Microsoft Word.
    
@@ -30,7 +30,14 @@ Download a copy of the program and put it in a folder on your computer and run t
 Hopefully the program will be intuitive/self explanatory. For more detail download the documentation file.
 
 ##Methodology
-To identify the words / phrases which need transliteration the program uses a regular expression. The default one has been developed by experimentation with a range of texts. It has been found to work on 99.5% of occasions - with minor spacing issues with the remaining 0.5%. If, in use, the success rate is significantly less than that with any particular text please contact support by opening an [issue](https://github.com/mauricemanktelow/Prep4Translit/issues).
+To identify the words / phrases which need transliteration the program uses a range of unicode values. Fours standard sets are provided:
+
+* Arabic (U+0700-U+074F)
+* Greek (U+0370-U+03FF U+1F00-U+1FEE U+0342-U+0345)
+* Hebrew (U+0590-U+1FFE)
+* Syriac (U+0700-U+074F)
+
+block a regular expression. The default one has been developed by experimentation with a range of texts. It has been found to work on 99.5% of occasions - with minor spacing issues with the remaining 0.5%. If, in use, the success rate is significantly less than that with any particular text please contact support by opening an [issue](https://github.com/mauricemanktelow/Prep4Translit/issues).
 
 ## Working with character sets other than Hebrew or Greek
 
