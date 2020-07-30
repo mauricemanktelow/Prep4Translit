@@ -1,12 +1,12 @@
 # Prep4Translit
 ## Description
 
-The program imports a Microsoft word document (docx) and creates a new version which, by default, duplicates all Greek and Hebrew text in readiness for producing a transliteration using SIL's TECkit program. (It can be extended to other language sets - see below for more detail)
+The program imports a Microsoft word document (docx) and creates a new version which, by default, it can duplicates Greek, Hebrew, Syriac and Arabic text in readiness for producing a transliteration using SIL's TECkit program. (It can be extended to other language sets - see below for more detail)
 
 For example:    
-*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is the common verb היי in the Qal binyan*       
+*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is the common verb היה in the Qal binyan*       
 would become    
-*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is the common verb היי} היי} in the Qal binyan*
+*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is the common verb היה} היה} in the Qal binyan*
 
 ## Preparation
 Before running the program, the original Word file to be processed should define a unique style which can be applied to the transliterated text. 
@@ -21,6 +21,8 @@ As the program consists of a single exe file an installer has not been provided<
 Download a copy of the program and put it in a folder on your computer and run the program in the normal way (by clicking on the file name).
 
 Hopefully the program will be intuitive/self explanatory.
+
+N.B.When attempting to run the program security warnings may appear as this is open source software and not developed by a big organisation with budgets to purchase expensive licences. 
 
 ##Methodology
 To identify the words / phrases which need transliteration the program uses a range of unicode values. Four standard sets are provided:
