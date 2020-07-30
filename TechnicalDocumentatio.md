@@ -1,0 +1,9 @@
+Hello
+# Technical information
+
+## Code
+This Windows program was written in C# using Visual Studion 2015 Community Edition
+
+## Methodolgy
+After completing a number of checks that the parameters provided are valid the program then:
+
