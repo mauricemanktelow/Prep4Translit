@@ -24,7 +24,7 @@ Hopefully the program will be intuitive/self explanatory.
 
 N.B.When attempting to run the program security warnings may appear as this is open source software and not developed by a big organisation with budgets to purchase expensive licences. 
 
-##Methodology
+## Methodology
 To identify the words / phrases which need transliteration the program uses a range of unicode values. Four standard sets are provided:
 
 * Arabic (U+0700-U+074F)
@@ -45,7 +45,7 @@ The program provides an option to apply unique characters surrounding the transl
 
 If, in use, the success rate is significantly less than that with any particular text please contact support by opening an [issue](https://github.com/mauricemanktelow/Prep4Translit/issues).
 
-## Reverse-Engineered
+### Reverse-Engineered
 The software has been developed by reverse-engineering of some complex Word documents. Whilst it has catered for the situations encountered there could be others which have not been aware of. If you encounter such situations pelase let us know with a copy of the relevant file and it will be investigated for the benefir of others. Thank you.   
 
 ## Have a question or want to make a contribution
