@@ -45,6 +45,9 @@ The program provides an option to apply unique characters surrounding the transl
 
 If, in use, the success rate is significantly less than that with any particular text please contact support by opening an [issue](https://github.com/mauricemanktelow/Prep4Translit/issues).
 
+## Reverse-Engineered
+The software has been developed by reverse-engineering of some complex Word documents. Whilst it has catered for the situations encountered there could be others which have not been aware of. If you encounter such situations pelase let us know with a copy of the relevant file and it will be investigated for the benefir of others. Thank you.   
+
 ## Have a question or want to make a contribution
 
 Please feel invited!
